@@ -39,7 +39,7 @@ def upload():
     """
     예상 요청(JSON):
     {
-      "FILE_NAME": "sample.txt"
+      "FILE_NAME": "/경로/sample.txt"
     }
     """
 
@@ -47,9 +47,10 @@ def upload():
     if not data:
         return jsonify({"status": "error", "message": "JSON Body 없음"}), 400
 
-    print(data)
+    
     file_name = data.get("file_name")
-    print(file_name)
+    # 대량파일업로드 함수 호출
+    # fnFileUpload(file_name)
     if not file_name:
         return jsonify({"status": "error", "message": "FILE_NAME 필드 없음"}), 400
 
