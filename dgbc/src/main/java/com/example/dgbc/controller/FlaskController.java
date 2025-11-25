@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/python")
+@CrossOrigin(origins = "*", methods = RequestMethod.POST)
 public class FlaskController {
     private final FlaskApiClient flaskApiClient;
 
