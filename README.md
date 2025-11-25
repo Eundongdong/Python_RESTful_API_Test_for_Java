@@ -1,5 +1,11 @@
 ## Java Server에서 Python 통신 - RESTful API Flask 활용
 
+### 실행 방법
+1. java run
+2. `flask --debug run`
+3. localhost:8080/index.html 접속
+
+---
 
 Java 서버 호출 
 
