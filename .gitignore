@@ -1,0 +1,47 @@
+# ============================
+# Flask / Python
+# ============================
+flask/__pycache__/
+flask/**/*.pyc
+flask/venv/
+flask/*.log
+
+# ============================
+# Java Gradle (dgbc 프로젝트)
+# ============================
+dgbc/.gradle/
+dgbc/build/
+dgbc/HELP.md
+dgbc/**/build/
+dgbc/build.gradle
+dgbc/settings.gradle
+dgbc/gradlew
+dgbc/gradlew.bat
+!dgbc/gradle-wrapper.jar
+!dgbc/gradle-wrapper.properties
+
+# Gradle Wrapper Cache
+dgbc/gradle/
+dgbc/gradle/wrapper/gradle-wrapper.jar
+
+# ============================
+# Temporary Files
+# ============================
+*.log
+*.tmp
+*.class
+
+# ============================
+# IDE Specific
+# ============================
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ============================
+# OS Generated
+# ============================
+.DS_Store
+Thumbs.db
